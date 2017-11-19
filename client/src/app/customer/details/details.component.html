@@ -1,0 +1,8 @@
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="Name" [(ngModel)]="customer.name" name="name">
+  </mat-form-field>
+  <br/>
+  <button mat-raised-button color="primary" (click)="save()">Save</button>
+  <a mat-raised-button color="primary" [routerLink]="['/all']">Back</a>
+</form>
