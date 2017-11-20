@@ -22,7 +22,6 @@ export class ListComponent {
     @Input() totalCount: number;
     @Output() onDeleteCustomer = new EventEmitter();
     @Output() onPageSwitch = new EventEmitter();
-    @Output() onRedirectToDetails = new EventEmitter();
 
     constructor(public paginationService: PaginationService) { }
 }
