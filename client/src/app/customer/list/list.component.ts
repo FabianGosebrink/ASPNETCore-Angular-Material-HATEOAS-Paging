@@ -15,7 +15,7 @@ export class ListComponent {
     displayedColumns = ['id', 'name', 'created', 'actions'];
 
     @Input('dataSource')
-    set allowDay(value: Customer[]) {
+    set dataSourceForTable(value: Customer[]) {
         this.dataSource = new MatTableDataSource<Customer>(value);
     }
 
