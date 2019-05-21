@@ -1,3 +1,5 @@
 server/.vs/
 server/src/ASPNETCoreWebAPI/obj
 server/src/ASPNETCoreWebAPI/bin
+/server/aspnetcore/ASPNETCoreWebAPI/bin
+/server/aspnetcore/ASPNETCoreWebAPI/obj
